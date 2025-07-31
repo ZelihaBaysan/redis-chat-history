@@ -27,7 +27,7 @@ memory = ChatMemoryBuffer.from_defaults(
     token_limit=3000
 )
 
-# 6. Chat engine (Belgesiz, sadece model ve hafıza ile)
+# 6. Chat engine 
 chat_engine = SimpleChatEngine.from_defaults(
     llm=llm,
     memory=memory,
